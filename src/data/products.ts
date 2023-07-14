@@ -1,0 +1,60 @@
+import { Product } from "../types/product";
+
+export const products: Product[] = [
+  {
+    id: '1',
+    title: 'Soladaum',
+    gender: 'women',
+    price: 'R$ 150,00',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvnx8E0gFJWBindzR1KptCtcxvlZXElCb0e6vKHBm4iYfmZMw49nmgr-w6BuayL_LY6rU&usqp=CAU'
+  },
+  {
+    id: '2',
+    title: 'Manerim',
+    gender: 'women',
+    price: 'R$ 90,00',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMMMFxyvMDTa0ECz0sNX946jb9Zp1jEafs0Q&usqp=CAU'
+  },
+  {
+    id: '3',
+    title: 'Coloridu',
+    gender: 'women',
+    price: 'R$ 130,00',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgaRLKMtQWhL_5iDfaOV_Gce1KgGJAavndOw&usqp=CAU'
+  },
+  {
+    id: '4',
+    title: 'Massa',
+    gender: 'women',
+    price: 'R$ 300,00',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbqktizzvduL4Edw3FUS3ieAatTq31XPqUWA&usqp=CAU'
+  },
+  {
+    id: '5',
+    title: 'Sapatenis Slip',
+    gender: 'men',
+    price: 'R$ 100,00',
+    image: 'data:image/jpeg;base64,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1ByvYqRh+zKNP8yI5/gXkeCl5TRcKF83Bl4e1kMV5ho81d9MV4XlOk7q+6pveeAA+Kpo0YVO23zs8FZBJVQhlVFTopKtEVXsVzWDWc4ADEmgVWjY7Yrhq2tzz4IJiD7I3DyVaIuQREQEREBERAREQEREBERAREQY0zIQ4ntNtzBIdu1hQ0UZH0I4Ww4gOyIPDWbSg/pKnEQatFgxme1AeRnDLXjlUPPBqwommYDPnHPh/wAyHFZ4uaAt2XhCvY0tvaGT/iYH9xvxXp7Ryf8AEwP7jPitnmNEwIntwYTt7G/BR8XsfIuvlofCo8inYhXdqZMfvEPgSfIFWHdtJMXRHO3Q4nvaFMnsLI/6NNznfFB2Gkh/2z+Iq9wa7G7dQvoQort+q0c6k+CxXdqpqLZDY2GNg1nczZ/6rdYPZKUbdCHFSUvo6Ez2WNHBO4NE0foCYjuD4rnHa43bsuC3nRkg2C3VCzAEUtBERQEREBERAREQEREBERAREQEREBCERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB//2Q=='
+  },
+  {
+    id: '6',
+    title: 'Fila',
+    gender: 'men',
+    price: 'R$ 120,00',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKHS7jLHL2IW1ajN6U7r1WgvH3bmM3ejNl5w&usqp=CAU'
+  },
+  {
+    id: '7',
+    title: 'Tenis DuBom',
+    gender: 'men',
+    price: 'R$ 150,00',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp6CF0dgfsJFTFQWuS-5IorzbjmPU7lp8Nng&usqp=CAU'
+  },
+  {
+    id: '8',
+    title: 'Stonks',
+    gender: 'men',
+    price: 'R$ 300,00',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxoYfQ1TgO2Hz_NWKj30XTnWXK14EY81wfw&usqp=CAU'
+  },
+]
